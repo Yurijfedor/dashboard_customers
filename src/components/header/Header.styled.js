@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   flex-direction: column;
   padding: 36px 28px;
+  background-color: #fff;
 `;
 
 export const NavWrapp = styled.div`

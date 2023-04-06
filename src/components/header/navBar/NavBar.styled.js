@@ -17,12 +17,22 @@ export const NavItem = styled.li`
   border-radius: 8px;
   color: #9197b3;
   transition: background-color 0.2s;
-  &:hover,
-  &:focus {
-    cursor: pointer;
-    color: #ffffff;
+  ${({ active }) =>
+    active &&
+    `
+      background-color: #5932ea;
+      color: #ffffff;
+
+      svg {
+        fill: #ffffff;
+        stroke: #ffffff;
+      }
+    `}
+  &:hover {
     background-color: #5932ea;
-    & svg {
+    color: #ffffff;
+
+    svg {
       stroke: #ffffff;
       fill: #ffffff;
     }
@@ -30,7 +40,6 @@ export const NavItem = styled.li`
   & svg {
     stroke: #9197b3;
     fill: #9197b3;
-    transition: fill 0.2s;
   }
 `;
 
