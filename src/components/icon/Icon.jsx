@@ -6,10 +6,16 @@ export const Icon = ({
   height = 24,
   fill = "inherit",
   stroke = "inherit",
+  onClick,
 }) => {
   return (
     <svg width={width} height={height}>
-      <use href={`${sprite}#${name}`} fill={fill} stroke={stroke} />
+      <use
+        xlinkHref={`${sprite}#${name}`}
+        fill={fill}
+        stroke={stroke}
+        onClick={onClick}
+      />
     </svg>
   );
 };

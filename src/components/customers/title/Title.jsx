@@ -1,10 +1,16 @@
 import { TitleWrapp, TableTitle, TableTitleBottom } from "./Title.styled";
 
-export const Title = () => {
+export const Title = ({
+  title,
+  getActiveCustomers,
+  isClickedActiveMembers,
+}) => {
   return (
     <TitleWrapp>
-      <TableTitle>All Customers</TableTitle>
-      <TableTitleBottom>Active Members</TableTitleBottom>
+      <TableTitle>{title}</TableTitle>
+      <TableTitleBottom onClick={() => getActiveCustomers()}>
+        {isClickedActiveMembers ? "All Members" : "Active Members"}
+      </TableTitleBottom>
     </TitleWrapp>
   );
 };
