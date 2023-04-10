@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdashboard_customers=self.webpackChunkdashboard_customers||[]).push([[884],{884:function(s,a,e){e.r(a);var r=e(184);a.default=function(){return(0,r.jsx)("div",{children:"I am a ProductPage"})}}}]);
+//# sourceMappingURL=884.c0e3c38a.chunk.js.map

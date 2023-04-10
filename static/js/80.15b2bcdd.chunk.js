@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdashboard_customers=self.webpackChunkdashboard_customers||[]).push([[80],{80:function(e,s,a){a.r(s);var r=a(184);s.default=function(){return(0,r.jsx)("div",{children:"I am a PromotePage"})}}}]);
+//# sourceMappingURL=80.15b2bcdd.chunk.js.map
